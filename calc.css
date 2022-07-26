@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #080835;
+    font-size: 2rem;
+    margin-top: 3rem;
+} 
+
+.container {
+    width: 17rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #080835;
+    margin: 2rem auto;
+    padding: 1.5rem;
+}
+
+.display {
+    background-color: #cddecd;
+    text-align: right;
+    width: 14rem;
+    border: 3px inset #cddecd;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.keys_style {
+    display: grid;
+    grid-template-areas:
+        "a a b c"
+        "d e f g"
+        "h i j k"
+        "l m n o"
+        "p q r r"
+    ;
+    gap: 0.5rem;
+}
+
+.key {
+    padding: 0.5rem;
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee;
+    border-radius: 0.3rem;
+}
+
+.key:hover {
+    background-color: #080835;
+    color: #eeeeee;
+}
+
+.key_operator {
+    background-color: #bfbfbfaa;
+    border:  1px solid #bfbfbfaa;
+    color: #eeeeee;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+}
+
+.key_operator:hover {
+    background-color: #eeeeee;
+    color: #080835;
+    border-color: #eeeeee;
+}
+
+input:nth-child(1) {
+   grid-area: a;
+   color: #eeeeee;
+   background-color: #ff1e00;
+   border: 1px solid #ff1e00;
+}
+
+input:nth-child(2) {
+    grid-area: b;
+}
+
+input:nth-child(3) {
+    grid-area: c;
+}
+
+input:nth-child(4) {
+    grid-area: d;
+}
+
+input:nth-child(18) {
+    grid-area: r;
+    color: #eeeeee;
+}
