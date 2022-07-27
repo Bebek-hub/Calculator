@@ -26,9 +26,10 @@ h2 {
     background-color: #cddecd;
     text-align: right;
     width: 14rem;
+    height: 3rem;
     border: 3px inset #cddecd;
     border-radius: 0.3rem;
-    padding: 1rem;
+    padding: 0.7rem;
     margin-bottom: 1rem;
 }
 
@@ -54,6 +55,7 @@ h2 {
 .key:hover {
     background-color: #080835;
     color: #eeeeee;
+    cursor: pointer;
 }
 
 .key_operator {
@@ -68,6 +70,7 @@ h2 {
     background-color: #eeeeee;
     color: #080835;
     border-color: #eeeeee;
+    cursor: pointer;
 }
 
 input:nth-child(1) {
@@ -91,5 +94,4 @@ input:nth-child(4) {
 
 input:nth-child(18) {
     grid-area: r;
-    color: #eeeeee;
 }
